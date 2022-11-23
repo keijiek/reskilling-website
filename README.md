@@ -28,11 +28,11 @@
 
 ### 1-2. mkdir
 
-```ShellSession
+```bash
 mkdir -pv ./src/{html,css,img,js}
 ```
 
-```text
+```
 -p, --parents     no error if existing, make parent directories as needed
 -v, --verbose     print a message for each created directory
 ```
@@ -46,7 +46,7 @@ see [Install & Update Script](https://github.com/nvm-sh/nvm#install--update-scri
 
 ### npm init で package.json 作成
 
-```ShellSession
+```bash
 echo '18' > .nvmrc
 nvm install
 npm init -y
@@ -54,8 +54,8 @@ npm init -y
 
 ### npm によるパッケージのインストール
 
-```ShellSession
-npm i -D webpack webpack-cli webpack-dev-server
+```bash: bash
+npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader
 ```
 
 ---
@@ -64,7 +64,7 @@ npm i -D webpack webpack-cli webpack-dev-server
 
 ### 1 ...or create a new repository on the command line
 
-```ShellSession
+```bash
 # echo "# reskilling-website" >> README.md
 # git add README.md
 git init
@@ -77,7 +77,7 @@ git push -u origin main
 
 ### 2 ...or push an existing repository from the command line
 
-```ShellSession
+```bash
 git remote add origin git@github.com:keijiek/reskilling-website.git
 git branch -M main
 git push -u origin main
