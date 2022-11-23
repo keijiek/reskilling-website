@@ -28,11 +28,11 @@
 
 ### 1-2. mkdir
 
-```bash
+```bash:console
 mkdir -pv ./src/{html,css,img,js}
 ```
 
-```
+```text:mkdir's options
 -p, --parents     no error if existing, make parent directories as needed
 -v, --verbose     print a message for each created directory
 ```
@@ -46,7 +46,7 @@ see [Install & Update Script](https://github.com/nvm-sh/nvm#install--update-scri
 
 ### npm init で package.json 作成
 
-```bash
+```bash:console
 echo '18' > .nvmrc
 nvm install
 npm init -y
@@ -54,7 +54,7 @@ npm init -y
 
 ### npm によるパッケージのインストール
 
-```bash: bash
+```bash:console
 npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader
 ```
 
