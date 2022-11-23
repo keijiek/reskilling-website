@@ -1,20 +1,20 @@
 {
-  "name": "reskill",
-  "version": "1.0.0",
-  "description": "## Procedures for building this development environment.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx webpack --config ./webpack.dev.js",
+    "pro": "npx webpack --config ./webpack.prod.js",
+    "srv": "npx webpack serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/keijiek/reskilling-website.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/keijiek/reskilling-website/issues"
-  },
-  "homepage": "https://github.com/keijiek/reskilling-website#readme"
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
+  }
 }
