@@ -1,0 +1,20 @@
+{
+  "name": "reskill",
+  "version": "1.0.0",
+  "description": "## Procedures for building this development environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keijiek/reskilling-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keijiek/reskilling-website/issues"
+  },
+  "homepage": "https://github.com/keijiek/reskilling-website#readme"
+}
