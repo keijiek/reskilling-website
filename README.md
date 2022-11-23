@@ -4,7 +4,7 @@
 
 ## 1. 事前準備
 
-### 1-1.  *.code-workspace
+### 1-1.  hoge.code-workspace
 
 ```json
 {
@@ -28,10 +28,11 @@
 
 ### 1-2. mkdir
 
-```bash
+```ShellSession
 mkdir -pv ./src/{html,css,img,js}
 ```
-```Text
+
+```text
 -p, --parents     no error if existing, make parent directories as needed
 -v, --verbose     print a message for each created directory
 ```
@@ -45,7 +46,7 @@ see [Install & Update Script](https://github.com/nvm-sh/nvm#install--update-scri
 
 ### npm init で package.json 作成
 
-```bash
+```ShellSession
 echo '18' > .nvmrc
 nvm install
 npm init -y
@@ -53,7 +54,7 @@ npm init -y
 
 ### npm によるパッケージのインストール
 
-```bash
+```ShellSession
 npm i -D webpack webpack-cli webpack-dev-server
 ```
 
@@ -63,7 +64,7 @@ npm i -D webpack webpack-cli webpack-dev-server
 
 ### 1 ...or create a new repository on the command line
 
-```bash
+```ShellSession
 # echo "# reskilling-website" >> README.md
 # git add README.md
 git init
@@ -76,7 +77,7 @@ git push -u origin main
 
 ### 2 ...or push an existing repository from the command line
 
-```bash
+```ShellSession
 git remote add origin git@github.com:keijiek/reskilling-website.git
 git branch -M main
 git push -u origin main
