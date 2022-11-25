@@ -86,11 +86,18 @@ nvm install
 
 ### Make package.json, Install node_modules.
 
-#### console
-
+#### full
 ```bash
 npm init -y
-npm i -D webpack webpack-cli webpack-dev-server webpack-merge terser-webpack-plugin css-loader mini-css-extract-plugin css-minimizer-webpack-plugin html-webpack-plugin html-loader 
+npm i -D webpack webpack-cli webpack-merge webpack-dev-server terser-webpack-plugin css-loader mini-css-extract-plugin css-minimizer-webpack-plugin html-webpack-plugin html-loader 
+```
+
+#### separated
+```bash
+npm init -y
+npm i -D webpack webpack-cli webpack-merge webpack-dev-server
+npm i -D css-loader mini-css-extract-plugin css-minimizer-webpack-plugin
+npm i -D html-webpack-plugin html-loader terser-webpack-plugin
 ```
 
 ---

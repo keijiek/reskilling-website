@@ -12,6 +12,18 @@
       "**/node_modules/": true,
       "**/package-lock.json": true,
       "**/.nvmrc": true,
+      /** 
+      As shown below, various config-files are made invisible in order to concentrate on editing html/css/js.
+      The dist directory is also made invisible for the same reason.
+      These are visible with `ls` on console, and can be opened with `code hoge`.
+      It will be visible only while it is open in that way.
+      */
+      "**/webpack.*": true,
+      "**/package.json": true,
+      "**/.gitignore": true,
+      "**/README.md": true,
+      // dist is visible, for now.
+      "**/dist/":true,
     }
   }
 }
